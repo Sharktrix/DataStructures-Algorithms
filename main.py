@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-print("Hi, My name is Zainab.")
-=======
 
->>>>>>> origin/main
+print("Hi, My name is Zainab.")
+
