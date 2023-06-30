@@ -1,5 +1,10 @@
-- In stacks, there is only top. Pop and push has to be done from the top.
+- For something to be a stack, we just have to add and remove from the same end.
+- In stacks, there is only top. Pop and push has to be done from the top and we really don't need bottom.
+- We might wanna use an end specifically where we need not index everything.
 - LIFO - Last In First Out
 - Favorite analogy for a stack is a can of tennis balls.
 - Implementing a stack using a linked list. There's only one end I want to use for adding and removing. 0(1)
 - Push and Pop are the terminology for adding and removing an item.
+- Reindexing side of the list is O(n) / the opposite  end is O(1).
+- What I don't want to do is implement a stack where the none terminated end is this way.
+- Now with the link list, we had head and tail with a stack. We'll call this top and bottom.
