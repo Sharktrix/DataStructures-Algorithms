@@ -1,3 +1,4 @@
+## STACKS
 - For something to be a stack, we just have to add and remove from the same end.
 - But with a stack we're only adding and removing from the top, so we really don't need bottom.
 - We might wanna use an end specifically where we need not index everything.
