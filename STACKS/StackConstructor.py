@@ -1,5 +1,3 @@
-//Stack Constructor
-
 // Node Class
 class Node:
     def__init__(self,value):
