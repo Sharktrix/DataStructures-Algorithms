@@ -9,3 +9,4 @@
 - But on the other end removing and adding is O(n).
 - We enqueue and dequeue from different ends.
 - In Queues, we're just going to call these first and last.
+- If we have an empty queue where we're going to have first and last point to the same node. In other words, the first and last item in the line.
