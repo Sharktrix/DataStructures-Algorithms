@@ -1,0 +1,5 @@
+- In stacks, there is only top. Pop and push has to be done from the top.
+- LIFO - Last In First Out
+- Favorite analogy for a stack is a can of tennis balls.
+- Implementing a stack using a linked list. There's only one end I want to use for adding and removing. 0(1)
+- Push and Pop are the terminology for adding and removing an item.
