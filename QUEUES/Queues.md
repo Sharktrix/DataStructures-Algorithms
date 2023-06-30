@@ -7,4 +7,5 @@
 - For something to be a queue, you add on one end in, you remove on the other end.
 - With a list, Removing and adding from the end is O(1).
 - But on the other end removing and adding is O(n).
-- We're just going to call these first and last.
+- We enqueue and dequeue from different ends.
+- In Queues, we're just going to call these first and last.
