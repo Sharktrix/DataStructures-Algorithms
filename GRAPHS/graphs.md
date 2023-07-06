@@ -11,5 +11,5 @@ Week 8 - Graphs - 1_graph_adjacency_find_path.py
 Modifying the path using recursive function (append)
 Every recursive call has a stopping criteria.
 
-Find the first path - Alogorithm concept
+Find the first path - Algorithm concept
 - one path only
