@@ -12,4 +12,4 @@ Modifying the path using recursive function (append)
 Every recursive call has a stopping criteria.
 
 Find the first path - Algorithm concept
-- one path only
+- one path only 
