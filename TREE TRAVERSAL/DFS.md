@@ -4,7 +4,7 @@
 
 - Depth First Search (DFS) is a method for traversing or searching tree or graph data structures. It starts at the root (for a tree) or an arbitrary node (for a graph), and explores as far as possible along each branch before backtracking.
 
-There are 3 types of DFS
+# There are 3 types of DFS 
 
 - PreOrder = In this type of traversal, the process is: root node --> left subtree --> right subtree. The root is visited first, then the left subtree, and finally the right subtree.
 
