@@ -22,21 +22,24 @@ E = V - 1
 Weighted Graph 
 - Cost = Sum of Weightage of Edges
 
-Minimum Spanning Tree = Trying all spanning trees to find the minimum spanning tree
+* Minimum Spanning Tree = Trying all spanning trees to find the minimum spanning tree
 - Two methods of finding the MST: 
+- Both methods give the same solution but time taken differs.
 
-1. Kruskal's Method
+** 1. Kruskal's Method
 - Always select a minimum cause edge but if an edge is forming a cycle,
 do not include it in the solution.
+E = V - 1
+O(V*E)
+O(n.E) = O (n2) (square)
 
 
-2. Prim's Method 
+
+** 2. Prim's Method 
 - Always take the min edge which should be connected to other nodes so we can form a tree.
 Cost = Weight of all edges after Prim's method
 
 - We can find prim's method if we don't have connected edges graph.
-
-
 
 
 

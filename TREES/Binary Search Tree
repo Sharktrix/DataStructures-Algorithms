@@ -1,0 +1,17 @@
+Binary Search Tree : 
+- In a Binary Search Tree, the nodes have to be laid out in a particular way.
+- With a BST, when we add nodes, If the number is greater than the root node, 
+its going to go on the right side of the node.
+And if it's less than its going to on the left of that node.
+- We're always going to start at the top node.
+
+Big O 
+- Level 1 , 2 , 3 and 4 
+- O(logn) is achieved by doing divide and conquer.
+- We start at the top, we either go right or left and remove the rest.
+- This way we dont have to look at everything.
+- For a tree thats not crooked O(n) = 
+- The Big O if a BST is technicallt O(n) and NOT O(logn)
+- 
+
+
