@@ -2,7 +2,7 @@ G = ( V, E)
 V = Vertices
 E = Edges
 
-Spanning Tree is a subgraph of a graph having all Vertices 
+** Spanning Tree is a subgraph of a graph having all Vertices 
 and Edges minus Vertices 
 
 |Y| = n = 6 / Vertices
@@ -17,14 +17,12 @@ E = V - 1
 
 - For a given graph, I can have multiple spanning trees equal to the number of edges.
 - Formula : E C (V - 1) - no. of cycles
+- Weighted Graph , Cost = Sum of Weightage of Edges
 
-
-Weighted Graph 
-- Cost = Sum of Weightage of Edges
-
-* Minimum Spanning Tree = Trying all spanning trees to find the minimum spanning tree
+**  Minimum Spanning Tree = Trying all spanning trees to find the minimum spanning tree
 - Two methods of finding the MST: 
 - Both methods give the same solution but time taken differs.
+- Edges is the connection and weight and Vertex is Nodes
 
 ** 1. Kruskal's Method
 - Always select a minimum cause edge but if an edge is forming a cycle,
@@ -33,13 +31,22 @@ E = V - 1
 O(V*E)
 O(n.E) = O (n2) (square)
 
-
+- Queues = Pulls Smallest or Min Value
+- Clouds = DisjointSet (in other words, results)
+- Default dictonaries is just a dictonary with better features ( from collection import library) (Dictonaries do not do sorting)
+- Edges is the connection and weight and Vertex is Nodes
+- Pirority Queue = Min weight 
+- MST = list of edges
+- 
 
 ** 2. Prim's Method 
 - Always take the min edge which should be connected to other nodes so we can form a tree.
-Cost = Weight of all edges after Prim's method
-
+Cost = Weight of all edges after Prim's method  
 - We can find prim's method if we don't have connected edges graph.
+
+
+** 3. Greedy Method
+- 
 
 
 
