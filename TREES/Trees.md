@@ -10,7 +10,7 @@ Trees = A Data Structure which represents data in a hierarchy
 - Full Tree = Every node has zero or 2 nodes
 - Perfect Tree = Any level in the tree that has any nodes is completely filled all the way across.
 - Full Tree = Every node has 2 nodes
-- Complete Tree = We are filling the tree from left to right with no gap.
+- Complete Tree = We are filling the tree from left to right with no gap. Excluding the last level.
 - Balanced Tree = Left and righ trees differ by 1.
 - Every node can only have one parent. 
 
