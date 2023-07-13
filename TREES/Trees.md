@@ -6,11 +6,12 @@ Trees = A Data Structure which represents data in a hierarchy
 - A linked list is just a tree that doesn't form
 - Nodes in a tree can be taken as dictonaries
 - Each node can only point to two other nodes
+
 - Full Tree = Every node has zero or 2 nodes
-- Perfect Tree = Any level in the tree that has any 
-nodes is completely filled all the way across.
+- Perfect Tree = Any level in the tree that has any nodes is completely filled all the way across.
 - Full Tree = Every node has 2 nodes
 - Complete Tree = We are filling the tree from left to right with no gap.
+- Balanced Tree = Left and righ trees differ by 1.
 - Every node can only have one parent. 
 
 - INSERT, REMOVE, SEARCH, DELETE
