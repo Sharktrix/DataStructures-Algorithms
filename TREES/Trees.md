@@ -13,6 +13,7 @@ nodes is completely filled all the way across.
 - Complete Tree = We are filling the tree from left to right with no gap.
 - Every node can only have one parent. 
 
+- INSERT, REMOVE, SEARCH, DELETE
 
 Choice of DSA depends on: 
 - What needs to be stored?

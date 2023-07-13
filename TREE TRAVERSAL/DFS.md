@@ -12,3 +12,6 @@
 
 - InOrder = In this traversal, the order is: left subtree --> right subtree --> root node. The root is visited last, after the left and right subtrees.
 
+
+- if root = return
+- 

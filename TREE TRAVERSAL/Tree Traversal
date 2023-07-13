@@ -1,4 +1,6 @@
 Tree Traversal = We visit every node in the tree and then
 we're going to take the values and put them in a list and then will return that list.
 
+
+- Look to the left and right.
 - With linked list, it's just linear.
