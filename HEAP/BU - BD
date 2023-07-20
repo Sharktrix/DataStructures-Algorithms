@@ -1,0 +1,8 @@
+
+**Bubble up**: Imagine you're the new kid in school and you're actually really good at soccer. You join in a game at the lowest team. If you're better than others, you're moved up (or "bubble up") to higher teams. You keep moving up until you find a team where everyone is as good as you or better.
+
+In the same way, in a heap, when a new number is added, it starts at the bottom. If it's bigger (in a max heap) or smaller (in a min heap) than its parent, it swaps places with the parent. This continues until it can't swap places anymore. 
+
+**Bubble down**: Now imagine the best player in the school graduates. The spot at the top is empty! So, the school picks the last player who joined and puts them in the top spot. But if they're not as good as others, they need to move down (or "bubble down") to a lower team.
+
+Similarly, in a heap, when we remove the top number, we replace it with the last number in the heap. If this number is smaller (in a max heap) or larger (in a min heap) than its children, it swaps places with the larger (in a max heap) or smaller (in a min heap) child. This continues until it can't swap anymore.
