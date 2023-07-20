@@ -1,0 +1,17 @@
+A heap is a special tree-based data structure in computer science. It is an almost complete binary tree that satisfies the heap property. A complete binary tree is a special type of binary tree in which all the levels are completely filled except possibly the last level, which is filled from left to right.
+
+There are two types of heap:
+
+1. **Max-Heap**: In a max heap, for any given node I, the value of I is greater than or equal to the values of its children. That is, the parent node has a larger value than or equal to both of its child nodes. The key of the root node is the largest among all other nodes.
+
+2. **Min-Heap**: In a min heap, for any given node I, the value of I is less than or equal to the values of its children. That is, the parent node has a smaller value than or equal to both of its child nodes. The key of the root node is the smallest among all other nodes.
+
+Some of the key operations with heaps include:
+
+- **Insertion**: An element can be inserted at the end of the heap (at the bottom-most, right-most position) and then its position is adjusted so that the heap property remains intact. This operation has a time complexity of O(log N) in the worst case.
+
+- **Deletion**: The maximum element (in case of a max heap) or the minimum element (in case of a min heap) can be found at the root of the heap which can be deleted and replaced with the last element in the heap. The position of this new root is then adjusted so that the heap property remains intact. This operation also has a time complexity of O(log N) in the worst case.
+
+- **Heapify**: This operation is used to adjust the position of elements in a heap so that the heap property is maintained. Heapify operation is used during both insertion and deletion operations.
+
+Heaps are used in many algorithms including the heap sort algorithm for sorting data. They are also used in the implementation of priority queues, in Dijkstra's algorithm for finding the shortest path in a graph, and many more.
