@@ -17,6 +17,9 @@ Some of the key operations with heaps include:
 Heaps are used in many algorithms including the heap sort algorithm for sorting data. They are also used in the implementation of priority queues, in Dijkstra's algorithm for finding the shortest path in a graph, and many more.
 
 
+# MAX Heap
+
+
 from typing import List, Any
 
 
