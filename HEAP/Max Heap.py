@@ -1,6 +1,3 @@
-# MAX Heap
-
-
 from typing import List, Any
 
 
