@@ -86,5 +86,9 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-#The main difference is in bubble_down and bubble_up functions. We now compare if the child is smaller than the parent (or if one child is smaller than the other) instead of larger. Accordingly, get_max is now get_min since we’re dealing with a min heap. The sort function still works, but it now sorts the array in descending order.
+#just need to modify the comparison operations to create a MinHeap.
+#Here’s the updated code 
+#The main difference is in bubble_down and bubble_up functions. 
+#We now compare if the child is smaller than the parent (or if one child is smaller than the other) instead of larger. 
+#Accordingly, get_max is now get_min since we’re dealing with a min heap. 
+#The sort function still works, but it now sorts the array in descending order.
