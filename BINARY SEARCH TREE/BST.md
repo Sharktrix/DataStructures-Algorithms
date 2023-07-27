@@ -22,7 +22,8 @@
 
 ## Deletion from BST 
 
-- Key to be deleted has one child: 
+- Key to be deleted does not exist
+- Key to be deleted has one leaf: 
 - Delete item 
 - Make the parent of item, to be the parent of the child of item.
 - Key to be deleted has two children :
