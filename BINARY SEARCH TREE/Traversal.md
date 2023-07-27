@@ -14,3 +14,5 @@ In this traversal method, the root node is visited first, then the left subtree 
 In this traversal method, the nodes are visited level by level. It starts from the root (or any arbitrary node) and visits nodes at a level before going to the next level.
 
 These traversal methods are used based on the particular problem at hand. For example, inorder traversal of a BST will give the nodes in sorted order.
+
+## Contour of the tree 
