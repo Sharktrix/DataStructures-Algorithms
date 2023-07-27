@@ -22,8 +22,9 @@
 
 ## Deletion from BST 
 
-- Key to be deleted does not exist
-- Key to be deleted has one leaf: 
+- Case 0: Key to be deleted does not exist: return not found 
+- Case 1: Key to be deleted has one child: 
+- Case 2: Key to be deleted is a leaf: just delete the node
 - Delete item 
 - Make the parent of item, to be the parent of the child of item.
 - Key to be deleted has two children :
