@@ -1,0 +1,20 @@
+#Red-Black Tree
+
+Root Property: Root is black
+Red Property: The children of red nodes are black (if there is any children)
+Red nodes can not have red parents
+Depth property: Every path from root to null nodes must have exactly the same number of black nodes
+null nodes: are not leaf nodes! They are hypothetical nodes with null values attached to leaf nodes
+
+##Insertion:
+Insert a red node at the appropriate place (as determined for BST)
+Fix Red-Black Property if broken:
+Root: Root Property broken: If root becomes red --> RECOLOR
+Red: Red Property broken: If there are two red nodes in a row
+Name upper red node as the Parent (P)
+Name the lower red node as the Child (C)
+Name parent of parent is Grandparent (G)
+Name sibling of Parent as Parent's sibling (PS) -Red1: PS is black: ROTATION_RECOLOR
+Perform a rotation (Straight G-P-C: do single rotation, Bend: do a double rotation)
+Exchange G's colour with the node that took over G's spot. -Red2: PS is red: RECOLOR
+Exchange the colour of G with its two children (G becomes red P and PS become black)
